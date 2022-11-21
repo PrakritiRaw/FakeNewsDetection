@@ -8,6 +8,7 @@ from sklearn.linear_model import PassiveAggressiveClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 #we created a data frame
+#You can use your own dataset
 df=pd.read_csv('news.csv')
 
 print(df.shape)
